@@ -24,5 +24,6 @@ urlpatterns = [
     path('update/<str:pk>', views.update, name='update'),
     path('getdetails/pk=<str:pk>', views.get_details, name='get_details'),
     path('delete_user/<str:pk>', views.delete_user, name='delete_user'),
-    path('get-all-user-list', views.get_all_user_list, name='get_all_user_list'),
+    path('get_all_user_list', views.get_all_user_list, name='get_all_user_list'),
+    path('get_vehicle_by_id', views.get_vehicle_by_id, name='get_vehicle_by_id'),
 ]
